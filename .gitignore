@@ -1,0 +1,4 @@
+#.gitignore
+.vscode/
+modules/__pycache__
+*.log
