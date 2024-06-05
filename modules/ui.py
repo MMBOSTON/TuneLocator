@@ -10,13 +10,6 @@ state = {}
 # Define data as a DataFrame
 data = pd.DataFrame()
 
-# def display_filters(state, data):
-#     state['text_filter'] = st.text_input('Enter text to filter by')
-#     # Add a selectbox to choose the column to sort by
-#     state['sort_by'] = st.selectbox('Sort by', options=data.columns.tolist())
-#     # Add a selectbox to choose the sorting order
-#     state['sort_order'] = st.selectbox('Sort order', options=['Ascending', 'Descending'])
-
 def display(events):
     st.title("Tune Locator")
     # Sort the data before displaying it
