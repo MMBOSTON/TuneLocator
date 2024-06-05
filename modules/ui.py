@@ -50,6 +50,9 @@ def display_data(data):
     start = (st.session_state.page - 1) * rows_per_page
     end = start + rows_per_page
 
+    # Replace underscores in column names with spaces for specific columns
+    data.rename(columns={'Venue_Name': 'Venue Name', 'Music_Genre': 'Music Genre', 'Zip_Code': 'Zip Code'}, inplace=True)
+
     # Display the DataFrame for the selected page
     st.dataframe(data.iloc[start:end])
     
