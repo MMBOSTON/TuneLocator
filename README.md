@@ -1,5 +1,3 @@
-**TuneLocator** is a great name choice! It conveys the idea of finding local music events and has a catchy, modern feel. Here's how you can proceed with the development phases and detailed brief for TuneLocator:
-
 ### TuneLocator: Architectural (Design) Specification
 
 #### Phase 1: MVP 1.0 - Baseline Functionality
